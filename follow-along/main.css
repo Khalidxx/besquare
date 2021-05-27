@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+	background-color: rgb(149, 149, 149);
+}
+
+nav > .button-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 10px;
+}
+
+.button-container > button {
+	background-color: rgb(20, 20, 20);
+	color: white;
+	margin: 4px 8px;
+	padding: 8px 12px;
+	border-radius: 8px;
+	border: none;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 120px;
+}
+
+.branding > img,
+button > img {
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+}
+
+.branding {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 300px;
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.message-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 60px 0;
+}
+
+.text {
+	width: 50%;
+	border: solid rgb(83, 79, 79) 2px;
+	border-radius: 24px;
+	padding: 40px 60px;
+}
+
+.info-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.info-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	border: solid black 2px;
+	padding: 20px 0 80px;
+	border-radius: 12px;
+}
+
+.info-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer {
+	margin: 12px;
+}
+
+.info-top > .timer,
+.info-top > .score {
+	color: white;
+	background-color: black;
+	padding: 10px 16px;
+	border-radius: 8px;
+}
+
+.info-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.score-card {
+	border: solid rgb(85, 85, 85) 2px;
+	width: 120px;
+	height: 120px;
+	font-size: 64px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 64px;
+	box-shadow: rgb(0, 132, 255) 0px 2px 20px 2px;
+}
+
+.controls {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	justify-items: stretch;
+	margin: 50px 20px;
+	width: 90%;
+}
+
+.card {
+	border: solid black 2px;
+	border-radius: 8px;
+	box-shadow: rgb(87, 87, 87) 0px 2px 20px 2px;
+	width: 100px;
+	height: 100px;
+}
+
+.card > .header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 70px;
+}
+
+.card > .footer {
+	text-align: center;
+}

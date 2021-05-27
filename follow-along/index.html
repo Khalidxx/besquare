@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+		<title>Drum App</title>
+	</head>
+	<body>
+		<nav>
+      <div class="branding">
+        <img src="img/drum.svg" height="64" width="64" />
+			  Drum App
+      </div>
+      <div class="button-container">
+        <button><img src="img/start.svg" />Start Game</button>
+        <button><img src="img/record.svg" />Record</button>
+        <button><img src="img/play.svg" />Playback</button>
+      </div>
+		</nav>
+		<div class="info">
+      <div class="message-wrapper">
+      <div id="message" class="text">
+        You are currently in free mode. Press the [Start Game] button to start game.
+      </div>
+      </div>
+      <div class="info-container">
+      <div class="info-wrapper">
+			<div class="info-top">
+				<div class="timer">
+					Timer: <input id="timer" type="number" />
+				</div>
+				<div class="score">
+					Score: <input id="score" type="number" />
+				</div>
+			</div>
+			<div class="info-bottom">
+        <div class="score-card">K</div>
+		  </div>
+    </div>
+  </div>
+    <div class="controls">
+      <div id="clap" class="card">
+        <div class="header">A</div>
+        <div class="footer">CLAP</div>
+      </div>
+      <div id="hi_hat" class="card">
+        <div class="header">S</div>
+        <div class="footer">HI HAT</div>
+      </div>
+      <div id="kick" class="card">
+        <div class="header">D</div>
+        <div class="footer">KICK</div>
+      </div>
+      <div id="open_hat" class="card">
+        <div class="header">F</div>
+        <div class="footer">OPEN HAT</div>
+      </div>
+      <div id="boom" class="card">
+        <div class="header">G</div>
+        <div class="footer">BOOM</div>
+      </div>
+      <div id="ride" class="card">
+        <div class="header">H</div>
+        <div class="footer">RIDE</div>
+      </div>
+      <div id="snare" class="card">
+        <div class="header">J</div>
+        <div class="footer">SNARE</div>
+      </div>
+      <div id="tom" class="card">
+        <div class="header">K</div>
+        <div class="footer">TOM</div>
+      </div>
+      <div id="tink" class="card">
+        <div class="header">L</div>
+        <div class="footer">TINK</div>
+      </div>
+    </div>
+		<div class="buttons"></div>
+	</body>
+</html>
